@@ -1,0 +1,82 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,
+ol{
+    list-style-type: none;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,
+p,
+small,
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+/* Common Css End */
+/* div{
+    width: 150px;
+    height: 150px;
+    margin: 100px auto;
+    border: 25px solid;
+    transform: rotate(46deg);
+    background-color: orange;
+} */
+
+/* TopbarSection Css Start */
+#topbar{
+    
+    font-size: 14px;
+    background-color: #ffca36;
+}
+#topbar .container .col-lg-6{
+    background-color: #353535;
+    transform: skew(-22deg);
+    margin: 0 auto;
+}
+#topbar .container .col-lg-6 p{
+    color: azure;
+    transform: skew(22deg);
+    text-align: center;
+    font-size: 14px;
+}
+#topbar .container .col-lg-3 a{
+    align-items: center;
+    text-align: center;
+    
+    margin: 0 auto;
+    margin-right: 47px;
+    
+}
+/* Topbar Section Css End */
+
+/* Nav Section css start */
+
+/* Nav Section css End */
+
+/* Banner Section css End */
+#banner{
+    background-color: red;
+    background-image: url(../image/background.webp);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .container{
+    padding-top: 235px;
+    align-items: center;
+    color: white;
+    justify-content: flex-start;
+}
+#banner .container h2{ font-size: 35px;}
+#banner .container p{ font-size: 14px;}
+/* Banner Section css End */
